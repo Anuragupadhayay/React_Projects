@@ -7,9 +7,13 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-     <h1 className='bg-green-600 text-3xl'>A bg changer app with vite</h1>
-    </>
+    <div className='w-full h-screen duration-200'>
+      <div className='fixed flex flex-wrap justify-center bottom-12 inset-x-0 px-2'>
+        <div className='flex flex-wrap justify-center gap-3 shadow-lg bg-white px-3 py-2 rounded-3xl'>
+          <button>test</button>
+        </div>
+      </div>
+    </div>
   )
 }
 
